@@ -1,0 +1,33 @@
+/*没有内外边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+table tr th,table tr td,.chose,.total,.end{
+    text-align: center;
+}
+.delete{
+    cursor: pointer;
+    outline: none;
+}
+.money{
+    color: red;
+}
+.num{
+    width: 30px;
+}
+#bottom{
+    background-color: #d5d5d5;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}
+.chose,.total,.end{
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+/*结算*/
+#settlement{
+    color: white;
+    background-color: red;
+}

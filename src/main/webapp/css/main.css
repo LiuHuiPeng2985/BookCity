@@ -1,0 +1,103 @@
+.clear{
+    clear:both;
+}
+.body{
+    width: 1200px;
+    height: 900px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #B6B684;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #909;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9AAFE5;
+}
+.site{
+    font-size: 16px;
+    color:purple;
+}
+
+#top_left{
+    width:300px;
+    float: left;
+}
+#top_right{
+    width:500px;
+    float: right;
+    margin-top:18px;
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+#top_right a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#06F;
+}
+#top_right a:hover{
+    color:#909;
+}
+
+#menu {
+    background-color: #909;
+    border-top:2px solid green;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+
+#content{
+
+    left:45%;
+
+    margin:8px auto 15px;/*auto div居中*/
+}
+
+
+
+#content_bottom{
+
+    width: 1500px;
+    height: 500px;
+
+    border:1px solid #999;
+    background-color: #EFEEDC ;
+
+}
+
+
+#content_bottom h1{
+    font-size: 15px;
+    display: inline;
+}
+#content_bottom span{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.book{
+    margin: 10px;
+}
+.photo{
+
+    width: 130px;
+    height: 180px;
+}
+#bottom{
+    background-color: #999;
+    height:20px;
+    padding:10px 0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#909;
+}

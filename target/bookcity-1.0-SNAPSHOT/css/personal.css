@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+#per{
+    text-align: center;
+}
+#form{
+    border: 1px solid black;
+    width: 50%;
+    height: 85%;
+    position: relative;
+    left: 25%;
+}
+#user_name{
+    position: absolute;
+    top: 1%;
+    left: 30%;
+}
+#user_email{
+    position: absolute;
+    top: 8%;
+    left: 32%;
+}
+#user_identity{
+    position: absolute;
+    top: 15%;
+    left: 32%;
+}
+#site{
+    height: 50%;
+    position: absolute;
+    top: 36%;
+    left: 27%;
+}
+#user_city{
+    position: absolute;
+    top: 14%;
+    left: 33%;
+}
+#user_county{
+    position: absolute;
+    top: 27%;
+    left: 33%;
+}
+#user_place{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+#update_user{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+#save_user{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    width: 10%;
+}

@@ -1,0 +1,114 @@
+/*没有内外边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*头部*/
+#header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #999999;
+}
+#headerLoge{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+}
+#headerTitle{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 30%;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 25px darkcyan; /* 利用文字阴影 */
+}
+#headerBack{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+}
+#headerImg{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+#headerImg:hover{
+    transform: scale(1.1);
+}
+
+/*左侧功能栏*/
+#main{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    background-color: white;
+}
+#sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7%;
+    height: 100%;
+    background-color: red;
+    background-image: linear-gradient(#B6B684, green);
+    color: white;
+}
+#sidebarBook,#sidebarOrder,#sidebarUser{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+#sidebarBookNow{
+    position: absolute;
+    top: 6%;
+    left: 20%;
+}
+#sidebarOrderNow{
+    position: absolute;
+    top: 21%;
+    left: 20%;
+}
+#sidebarUserNow{
+    position: absolute;
+    top: 36%;
+    left: 20%;
+}
+
+#sidebarBookNow,#sidebarOrderNow,#sidebarUserNow{
+    text-decoration: none;
+}
+/*右侧内容*/
+#shop{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    width: 93%;
+    height: 100%;
+}
+#shopIframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*页尾*/
+#footer{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+}
+

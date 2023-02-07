@@ -1,0 +1,170 @@
+/*没有内外边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+/*主体*/
+#main{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 20%;
+    /*background-color: #0066FF;*/
+    border: 1px solid black;
+}
+/*左侧*/
+#left{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+}
+#leftHeader{
+    width: 100%;
+    height: 15%;
+}
+#leftTitle{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height:65px;
+}
+#leftMain{
+    width: 334px;
+    height: 269px;
+    background-color: #B6B684;
+    margin: 3% 3% 3% 3%;
+}
+#leftBack{
+    margin: 25% 3% 3% 3%;
+}
+/*图片放大镜*/
+#box{
+    width: 700px;
+    /*margin: 100px auto;*/
+    /*border: 1px solid red;*/
+}
+#small,#big{
+    width: 334px;
+    height: 269px;
+    /*margin: 0 2px;*/
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+#big{
+    width: 350px;
+    height: 300px;
+    display: none;
+}
+#move{
+    /*width: 100px;*/
+    /*height: 75px;*/
+    background-color: yellow;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    display: none;
+}
+#bigImg{
+    position: absolute;
+    Z-index: 2;
+    /*left: 10px;*/
+}
+
+/*右侧*/
+#right{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    height: 100%;
+    /*background-color: yellow;*/
+}
+/*介绍*/
+#rightSummary{
+    /*height: 30%;*/
+    /*background-color: #0066FF;*/
+    margin: 3% 5% 3% 5%;
+    font-weight: bold;
+}
+/*作者*/
+#rightAuthor{
+    position: relative;
+    top: 5%;
+    font-size: 10px;
+}
+
+/*价格*/
+#rightPrice{
+    position: relative;
+    top: 6%;
+    font-size: 20px;
+    background-color: #EFEEDC;
+}
+/*类型*/
+#rightType{
+    position: relative;
+    top: 8%;
+    font-size: 10px;
+}
+/*库存*/
+#rightNumber{
+    position: relative;
+    top: 10%;
+    font-size: 15px;
+}
+/*销量*/
+#rightSales{
+    position: relative;
+    top: 10%;
+    font-size: 15px;
+}
+
+/*购买数量*/
+#rightNum{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 30px;
+}
+#add{
+    position: relative;
+    top: -5px;
+    left: -6px;
+    cursor: pointer;
+}
+#sub{
+    position: relative;
+    top: 9px;
+    left: -25.8px;
+    cursor: pointer;
+}
+#addCart{
+    position: relative;
+    top: -30px;
+    left: 60px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: red;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#buy{
+    position: relative;
+    top: -60px;
+    left: 180px;
+    height: 30px;
+    width: 100px;
+    color: red;
+    background-color: #edd1d8;
+    border: red solid 1px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}

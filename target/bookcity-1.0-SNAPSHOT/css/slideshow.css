@@ -1,0 +1,111 @@
+/*主页*/
+.container{
+    width: 1180px;
+}
+/*没有内外边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*左侧*/
+.left{
+    float: left;
+    width: 28%;
+    height: 100%;
+}
+/*右侧*/
+.right{
+    float: right;
+    width: 28%;
+    height: 100%;
+}
+.box{
+    width: 44%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 28%;
+}
+.box-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 450px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.box-img:nth-child(1){
+    opacity: 1;
+}
+.box-left{
+    width: 35px;
+    height: 70px;
+    color: #ccc;
+    position: absolute;
+    top: 195px;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    line-height: 70px;
+    font-size: 27px;
+}
+.box-left:hover{
+    background-color: #00000050;
+    color: #fff;
+}
+.box-right{
+    width: 35px;
+    height: 70px;
+    color: #ccc;
+    position: absolute;
+    top: 195px;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    line-height: 70px;
+    font-size: 27px;
+}
+.box-right:hover{
+    background-color: #00000050;
+    color: #fff;
+}
+.box-di>ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box-di li{
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #ccc;
+    float: left;
+    margin-right: 10px;
+}
+.box-di li:hover{
+    background-color: #fff;
+}
+.box-di li:nth-child(1){
+    background-color: #fff;
+}
+.box-di{
+    position: absolute;
+    bottom: 30px;
+    right: 40%;
+}
+
+/*左侧最新动态*/
+#dynamic{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#dynamic-list{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+#notice-list{
+    position: absolute;
+    top: 22%;
+    left: 77%;
+}
